@@ -85,6 +85,7 @@ img {
     cursor: pointer;
     border: none;
     box-shadow: 0 0 3px 1px inset;
+    padding: 1%;
 }
 
 #btnUpdate:hover {
@@ -97,7 +98,7 @@ img {
 }
 
 #btnUpdate>i {
-    font-size: 2.5vh;
+    font-size: 150%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,11 +135,16 @@ footer {
     }
 
     .imagem {
-        max-height: 400px;
+        max-height: 350px;
     }
 
     .info {
         font-size: 1.4rem;
+    }
+
+    #btnUpdate{
+        width: 30px;
+        height: 30px;
     }
 }
 
